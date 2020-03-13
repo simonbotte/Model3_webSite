@@ -35,12 +35,14 @@
                     <span>Rapide</span>
                     <span>Autonome</span>
                 </div>
-                <a href="#" class="buyCar buyCar--white">Commander</a>
+                <a href="#" class="actionButton actionButton--white"
+                    >Commander</a
+                >
             </div>
         </section>
         <section class="range">
             <img class="range__image" src="assets/images/range.jpg" />
-            <ul class="range__features">
+            <ul class="features">
                 <li>530+</li>
                 <li>
                     Voyagez où vous voulez avec une autonomie de plus de 530 km
@@ -56,25 +58,53 @@
                     Superchargeurs le long des grands axes du monde entier
                 </li>
             </ul>
-            <a href="#" class="buyCar buyCar--black">Commander</a>
+            <a href="#" class="actionButton actionButton--black"
+                >En savoir plus</a
+            >
         </section>
-        <section class="performances"></section>
+        <section class="performances">
+            <video
+                class="performances__video"
+                preload="auto"
+                playsinline=""
+                muted=""
+                loop=""
+                src="./assets/videos/perf.mp4"
+                autoplay
+            ></video>
+            <ul class="features">
+                <li>3,4sec</li>
+                <li>
+                    Les accélérations les plus rapides : de 0 à 100 km/h en
+                    seulement 3,4 secondes
+                </li>
+                <li>261km/h</li>
+                <li>
+                    Tenue de route et aérodynamisme optimisés pour des pointes à
+                    261 km/h
+                </li>
+                <li>AWD</li>
+                <li>
+                    La transmission intégrale Dual Motor contrôle la traction et
+                    le couple instantanément, quelles que soient les conditions
+                    météorologiques
+                </li>
+            </ul>
+            <a href="#" class="actionButton actionButton--black"
+                >En savoir plus</a
+            >
+        </section>
         <section class="autopilot">
             <video
                 class="autopilot__video"
                 preload="auto"
                 playsinline=""
-                data-autoplay-desktop="true"
-                data-autoplay-portrait="true"
-                data-autoplay-mobile="true"
                 muted=""
                 loop=""
-                data-object-fit="cover"
                 src="./assets/videos/autopilot.mp4"
-                autoplay=""
-                data-loaded="true"
+                autoplay
             ></video>
-            <ul class="autopilot__features">
+            <ul class="features">
                 <li>Vision à 360°</li>
                 <li>
                     Caméras orientées vers avant, les côtés et l'arrière pour
@@ -92,10 +122,12 @@
                     stationnement
                 </li>
             </ul>
-            <a href="#" class="buyCar buyCar--black">Commander</a>
+            <a href="#" class="actionButton actionButton--black"
+                >En savoir plus</a
+            >
         </section>
         <section class="interior"></section>
-        <section class="features"></section>
+        <section class="spec"></section>
         <section class="safety"></section>
         <footer class="footer"></footer>
     </body>

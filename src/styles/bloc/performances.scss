@@ -1,3 +1,27 @@
 .performances {
-    background-color: orange;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.performances__video {
+    height: 45%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.performances__features {
+    padding: 10px;
+    li:nth-child(odd) {
+        font-size: 1.5em;
+        font-weight: 700;
+        margin-bottom: 2%;
+    }
+    li:nth-child(even) {
+        font-size: 1em;
+        margin-bottom: 8%;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+    }
 }
