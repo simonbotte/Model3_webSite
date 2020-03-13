@@ -1,3 +1,14 @@
 .features {
-    background-color: rebeccapurple;
+    padding: 10px;
+    li:nth-child(odd) {
+        font-size: 1.5em;
+        font-weight: 700;
+        margin-bottom: 2%;
+    }
+    li:nth-child(even) {
+        font-size: 1em;
+        margin-bottom: 7%;
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+    }
 }
