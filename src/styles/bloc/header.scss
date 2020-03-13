@@ -19,11 +19,12 @@
 }
 .burgerButton {
     width: 40px;
-    .burgerButton__rod {
-        display: block;
-        width: 100%;
-        height: 5px;
-        margin: 5px 0;
-        background-color: black;
-    }
+}
+
+.burgerButton__rod {
+    display: block;
+    width: 100%;
+    height: 5px;
+    margin: 5px 0;
+    background-color: black;
 }

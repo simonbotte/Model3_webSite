@@ -4,13 +4,13 @@
     }
 }
 
-@import "reset.scss";
-@import "generalRules.scss";
-@import "header.scss";
-@import "homePicture.scss";
-@import "range.scss";
-@import "performances.scss";
-@import "autopilot.scss";
-@import "interior.scss";
-@import "features.scss";
-@import "safety.scss";
+@import "vendor/reset.scss";
+@import "vendor/generalRules.scss";
+@import "bloc/header.scss";
+@import "bloc/homePicture.scss";
+@import "bloc/range.scss";
+@import "bloc/performances.scss";
+@import "bloc/autopilot.scss";
+@import "bloc/interior.scss";
+@import "bloc/features.scss";
+@import "bloc/safety.scss";
