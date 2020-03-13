@@ -1,0 +1,25 @@
+{
+    "name": "responsive-01-flex",
+    "version": "1.0.0",
+    "description": "## Entraînement",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {
+        "parcel": "^1.12.4",
+        "sass": "^1.26.3"
+    },
+    "scripts": {
+        "serve": "parcel src/index.html",
+        "build": "parcel build src/index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/zalero/Model3_webSite.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/zalero/Model3_webSite/issues"
+    },
+    "homepage": "https://github.com/zalero/Model3_webSite#readme"
+}
