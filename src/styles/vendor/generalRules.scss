@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: gray;
+    position: relative;
+}
+h2,
+h3 {
+    font-family: regulator-nova, sans-serif;
+    font-weight: 700;
+}
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    height: 100vh;
+    padding-top: 70px;
+}
