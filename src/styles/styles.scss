@@ -1,0 +1,16 @@
+@mixin screen_large {
+    @media (min-width: 1400px) {
+        @content;
+    }
+}
+
+@import "reset.scss";
+@import "generalRules.scss";
+@import "header.scss";
+@import "homePicture.scss";
+@import "range.scss";
+@import "performances.scss";
+@import "autopilot.scss";
+@import "interior.scss";
+@import "features.scss";
+@import "safety.scss";

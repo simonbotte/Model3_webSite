@@ -3,9 +3,72 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="styles/styles.scss" />
+
+        <!-- Polices -->
+        <link rel="stylesheet" href="https://use.typekit.net/qoy1blk.css" />
         <title>Tesla Model 3</title>
     </head>
     <body>
-        <h2>Tesla model 3</h2>
+        <header class="header">
+            <a href="#">Model 3</a>
+            <div class="header__burgerButton burgerButton">
+                <span class="burgerButton__rod"></span>
+                <span class="burgerButton__rod"></span>
+                <span class="burgerButton__rod"></span>
+            </div>
+        </header>
+        <section class="homePicture">
+            <picture>
+                <source
+                    srcset="./assets/images/model-3-portrait.jpg"
+                    media="(orientation : portrait)"
+                />
+                <img
+                    class="homePicture__backImage"
+                    src="./assets/images/model-3-landscape.jpg"
+                />
+            </picture>
+            <div class="homePicture__infos infos">
+                <div class="infos__text">
+                    <span>Rapide</span>
+                    <span>Autonome</span>
+                </div>
+                <a href="#" class="infos__buy">Commander</a>
+            </div>
+        </section>
+        <section class="range"></section>
+        <section class="performances"></section>
+        <section class="autopilot"></section>
+        <section class="interior"></section>
+        <section class="features"></section>
+        <section class="safety"></section>
+        <footer class="footer"></footer>
     </body>
 </html>
+
+<!-- 
+  <video
+                class="hero-video hero-asset"
+                preload="auto"
+                playsinline=""
+                data-autoplay-desktop="true"
+                data-autoplay-portrait="true"
+                data-autoplay-mobile="true"
+                muted=""
+                loop=""
+                data-object-fit="cover"
+                src="./assets/videos/autopilot.mp4"
+                autoplay=""
+                data-loaded="true"
+                style="transform: scale(1.1965886595331232) translate3d(0px, 3.4113404668768443px, 0px);"
+            ></video>
+  poster="/sites/tesla/files/curatedmedia/autopilot-mobile-poster.png"
+  data-poster-desktop="/sites/tesla/files/curatedmedia/autopilot-poster.png"
+  data-poster-mobile="/sites/tesla/files/curatedmedia/autopilot-mobile-poster.png"
+  data-poster-portrait=""
+  data-src-desktop="/sites/tesla/files/curatedmedia/autopilot.mp4"
+  data-src-mobile="/sites/tesla/files/curatedmedia/autopilot-mobile.mp4"
+  data-src-portrait="/sites/tesla/files/curatedmedia/autopilot.mp4"
+
+-->
