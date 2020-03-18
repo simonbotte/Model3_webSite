@@ -1,5 +1,8 @@
 .features {
     padding: 10px;
+    @include screen_small {
+        width: 70%;
+    }
     li:nth-child(odd) {
         font-size: 1.5em;
         font-weight: 700;

@@ -3,9 +3,26 @@
         @content;
     }
 }
+@mixin screen_medium {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin screen_small {
+    @media (min-width: 600px) {
+        @content;
+    }
+}
+@mixin grid_break {
+    @media (orientation: landscape) and (min-width: 1024px) {
+        @content;
+    }
+}
 
 @import "vendor/reset.scss";
 @import "vendor/generalRules.scss";
+@import "bloc/body.scss";
 @import "bloc/features.scss";
 @import "bloc/header.scss";
 @import "bloc/homePicture.scss";

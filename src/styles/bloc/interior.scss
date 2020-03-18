@@ -1,3 +1,18 @@
 .interior {
-    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    grid-column: 1;
+    grid-row: 5;
+    @include grid_break {
+        grid-row: 3;
+        grid-column: 2;
+    }
+}
+
+.interior__image {
+    height: 45%;
+    width: 100%;
+    object-fit: cover;
 }

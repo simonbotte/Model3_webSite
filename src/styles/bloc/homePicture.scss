@@ -1,6 +1,11 @@
 .homePicture {
     position: relative;
     z-index: 1;
+    grid-row: 1;
+    @include grid_break {
+        grid-row: 1;
+        grid-column: 1 / 3;
+    }
 }
 
 .homePicture__backImage {
