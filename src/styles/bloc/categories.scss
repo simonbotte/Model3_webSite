@@ -1,0 +1,28 @@
+.categories {
+    display: flex;
+    width: 80%;
+}
+.categories__title {
+    font-size: 2em;
+    margin-bottom: 5px;
+}
+.categories__category {
+    display: none;
+    color: white;
+    width: 30%;
+    width: 100%;
+    li:nth-child(even) {
+        font-size: 1.3em;
+        font-weight: 700;
+    }
+    li:nth-child(odd) {
+        font-size: 1em;
+        margin-bottom: 7px;
+        padding-bottom: 5px;
+        border-bottom: 1px solid white;
+    }
+}
+.categories__category--show {
+    display: flex;
+    flex-direction: column;
+}
