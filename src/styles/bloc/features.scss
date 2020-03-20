@@ -1,5 +1,5 @@
 .features {
-    padding: 10px;
+    padding: 20px;
     @include screen_small {
         width: 70%;
     }
@@ -13,5 +13,12 @@
         margin-bottom: 7%;
         padding-bottom: 5px;
         border-bottom: 1px solid black;
+    }
+}
+
+.features--white {
+    color: white;
+    li:nth-child(even) {
+        border-color: white;
     }
 }

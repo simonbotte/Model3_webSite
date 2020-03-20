@@ -2,7 +2,9 @@
     position: relative;
     z-index: 1;
     grid-row: 1;
+
     @include grid_break {
+        height: 80vh;
         grid-row: 1;
         grid-column: 1 / 3;
     }
