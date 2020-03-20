@@ -1,6 +1,9 @@
 .categories {
     display: flex;
     width: 80%;
+    @include grid_break {
+        width: 100%;
+    }
 }
 .categories__title {
     font-size: 2em;
@@ -8,9 +11,14 @@
 }
 .categories__category {
     display: none;
+    flex-direction: column;
     color: white;
-    width: 30%;
     width: 100%;
+    @include grid_break {
+        display: flex;
+        margin: 40px;
+        width: 30%;
+    }
     li:nth-child(even) {
         font-size: 1.3em;
         font-weight: 700;
@@ -24,5 +32,4 @@
 }
 .categories__category--show {
     display: flex;
-    flex-direction: column;
 }
