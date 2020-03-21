@@ -14,8 +14,23 @@
         @content;
     }
 }
+@mixin screen_little {
+    @media (min-height: 650px) {
+        @content;
+    }
+}
+@mixin screen_tall {
+    @media (min-height: 750px) {
+        @content;
+    }
+}
+@mixin screen_veryTall {
+    @media (min-height: 900px) {
+        @content;
+    }
+}
 @mixin grid_break {
-    @media (orientation: landscape) and (min-width: 1024px) {
+    @media (orientation: landscape) and (min-width: 800px) {
         @content;
     }
 }

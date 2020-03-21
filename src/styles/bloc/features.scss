@@ -3,6 +3,14 @@
     @include screen_small {
         width: 70%;
     }
+    @include grid_break {
+        width: 90%;
+    }
+}
+.features__list {
+    @include screen_small {
+        width: 100%;
+    }
     li:nth-child(odd) {
         font-size: 1.5em;
         font-weight: 700;
@@ -13,6 +21,34 @@
         margin-bottom: 7%;
         padding-bottom: 5px;
         border-bottom: 1px solid black;
+    }
+}
+
+.features--withResume {
+    display: flex;
+    justify-content: space-between;
+
+    .features__list {
+        width: 100%;
+
+        @include grid_break {
+            width: 55%;
+        }
+    }
+    .features__resume {
+        width: 35%;
+        display: none;
+        @include grid_break {
+            display: block;
+        }
+        h2 {
+            font-size: 1.5em;
+            font-family: rubrik-new, sans-serif;
+            margin-bottom: 10px;
+        }
+        p {
+            font-size: 1.1em;
+        }
     }
 }
 

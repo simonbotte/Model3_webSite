@@ -3,7 +3,9 @@
     "version": "1.0.0",
     "description": "## Entraînement",
     "main": "index.js",
-    "dependencies": {},
+    "dependencies": {
+        "waypoints": "^4.0.1"
+    },
     "devDependencies": {
         "parcel": "^1.12.4",
         "sass": "^1.26.3"
