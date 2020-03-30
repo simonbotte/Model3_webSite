@@ -39,7 +39,10 @@
         width: 35%;
         display: none;
         @include grid_break {
-            display: block;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
         h2 {
             font-size: 1.5em;
