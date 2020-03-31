@@ -1,6 +1,7 @@
 .categories {
     display: flex;
     width: 80%;
+    padding: 20px 0;
     @include grid_break {
         width: 100%;
     }

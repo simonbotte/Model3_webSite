@@ -6,7 +6,7 @@ body {
 
     display: grid;
     grid-template-columns: 1fr;
-    grid-auto-rows: 80vh 100vh 100vh 100vh 100vh 100vh 100vh;
+    grid-template-rows: 0.8fr 1fr 1fr 1fr 1fr 1fr 1.2fr 0.05fr;
 
     @include screen_tall {
         font-size: 14px;
@@ -16,7 +16,7 @@ body {
     }
     @include grid_break {
         grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 0.1fr;
+        grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 0.05fr;
         font-size: 16px;
     }
 }
