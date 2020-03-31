@@ -3,13 +3,13 @@
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     transition: ease 600ms;
 }
 
 .menu--open {
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     padding: 10% 0;
     a {
