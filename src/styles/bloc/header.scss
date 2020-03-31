@@ -1,14 +1,16 @@
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
+    flex-direction: column;
     width: 100vw;
     height: 70px;
+    overflow: hidden;
     background-color: rgba(255, 255, 255, 0.6);
-    padding: 0 20px;
     position: fixed;
     top: 0;
     z-index: 10;
+    transition: height 500ms ease;
     a {
         color: black;
         font-family: regulator-nova, sans-serif;
@@ -16,8 +18,31 @@
         font-size: 2em;
     }
 }
+.header--open {
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+.header__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    padding: 0 20px;
+}
 .burgerButton {
     width: 40px;
+}
+.burgerButton--open {
+    .burgerButton__rod:nth-child(1) {
+        transform: translateY(10px) rotate(-45deg);
+    }
+    .burgerButton__rod:nth-child(2) {
+        opacity: 0;
+    }
+    .burgerButton__rod:nth-child(3) {
+        transform: translateY(-10px) rotate(45deg);
+    }
 }
 
 .burgerButton__rod {
@@ -26,4 +51,5 @@
     height: 5px;
     margin: 5px 0;
     background-color: black;
+    transition: 500ms ease;
 }

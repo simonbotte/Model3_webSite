@@ -1,9 +1,9 @@
-body {
+.body {
     background-color: gray;
     position: relative;
     font-family: rubrik-new, sans-serif;
     font-size: 13px;
-
+    scroll-behavior: smooth;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 0.8fr 1fr 1fr 1fr 1fr 1fr 1.2fr 0.05fr;
@@ -19,4 +19,7 @@ body {
         grid-template-rows: 0.5fr 1fr 1fr 1fr 1fr 0.05fr;
         font-size: 16px;
     }
+}
+.body--stuck {
+    overflow: hidden;
 }

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,13 +10,26 @@
 
         <title>Tesla Model 3</title>
     </head>
-    <body>
-        <header class="header">
-            <a href="#">Model 3</a>
-            <div class="header__burgerButton burgerButton" id="burgerButton">
-                <span class="burgerButton__rod"></span>
-                <span class="burgerButton__rod"></span>
-                <span class="burgerButton__rod"></span>
+    <body class="body" id="body">
+        <header class="header" id="header">
+            <div class="header__header">
+                <a href="#">Model 3</a>
+                <div
+                    class="header__burgerButton burgerButton"
+                    id="burgerButton"
+                >
+                    <span class="burgerButton__rod"></span>
+                    <span class="burgerButton__rod"></span>
+                    <span class="burgerButton__rod"></span>
+                </div>
+            </div>
+            <div class="menu" id="menu">
+                <a href="#range">Autonomie</a>
+                <a href="#performances">Performances</a>
+                <a href="#autopilot">Autopilot</a>
+                <a href="#interior">Interieur</a>
+                <a href="#safety">Sécurité</a>
+                <a href="#spec">Caractéristiques</a>
             </div>
         </header>
         <section class="homePicture">
@@ -326,7 +339,7 @@
         </section>
         <footer class="footer">
             <span
-                >Reproduction, à titre éducatif, d'une page du site
+                >Utilisation, à titre éducatif, de contenus issus du site
                 <a href="https://www.tesla.com/fr_fr/model3">www.tesla.com</a>
             </span>
         </footer>
@@ -334,4 +347,5 @@
     <script src="assets/JS/noframework.waypoints.min.js"></script>
     <script src="assets/JS/waypoints.js"></script>
     <script src="assets/JS/categories.js"></script>
+    <script src="assets/JS/burger.js"></script>
 </html>
