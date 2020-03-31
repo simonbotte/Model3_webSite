@@ -3,9 +3,6 @@
     "version": "1.0.0",
     "description": "## Entraînement",
     "main": "index.js",
-    "dependencies": {
-        "waypoints": "^4.0.1"
-    },
     "devDependencies": {
         "parcel": "^1.12.4",
         "sass": "^1.26.3"
@@ -23,5 +20,8 @@
     "bugs": {
         "url": "https://github.com/zalero/Model3_webSite/issues"
     },
-    "homepage": "https://github.com/zalero/Model3_webSite#readme"
+    "homepage": "https://github.com/zalero/Model3_webSite#readme",
+    "dependencies": {
+        "waypoints": "^4.0.1"
+    }
 }
